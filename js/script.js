@@ -16,8 +16,6 @@ const nbRandomX = Math.floor(Math.random() * arrayDegX.length);
 
 let rangeValues = document.getElementsByClassName('range-value');
 
-
-
 rangeY.addEventListener('input', function(e) {
 	e.preventDefault()
 	cube.style.transform = 'rotateY('+rangeY.value+'deg) rotateX('+rangeX.value+'deg)';
