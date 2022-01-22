@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Amazing</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+	<div class="navigation">
+		<div class="btn-actions">
+			<div>
+				<button type="button" id="btn-rolling">Lancer</button>
+			</div>
+			<button type="button" id="btn-reset">Recommencer</button>
+		</div>	
+	</div>
+
+	<h1>Amazing dice</h1>
+
+	<div class="container-range">
+		<div class="range">
+			<h3>Rotation Y</h3>
+
+			<div class="range-value">
+				<span id="range-value-y"></span>
+			</div>
+
+			<div class="field">
+				<div class="value left">0°</div>
+				<input min="0" max="360" value="0" id="range-y" type="range" />
+				<div class="value right">360°</div>
+			</div>
+		</div>
+		<div class="range">
+			<h3>Rotation X</h3>
+			<div class="range-value">
+				<span id="range-value-x"></span>
+			</div>
+			<div class="field">
+				<div class="value left">0°</div>
+				<input min="0" max="360" value="0" id="range-x" type="range" />
+				<div class="value right">360°</div>
+			</div>
+		</div>		
+	</div>
+
+	<div class="container-cube">
+		<div id="cube">
+			<div class="face face-front">
+				<span></span>
+			</div>
+			<div class="face face-back">
+				<span></span>
+				<span></span>
+			</div>
+			<div class="face face-left">
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="face face-right">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="face face-top">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="face face-bottom">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+		</div>
+	</div>
+
+	<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
